@@ -13,18 +13,18 @@ Main: Loads and sets data and performs optimization.
 
 ## Data:
 
--	AirInletCooling contains data on the cooling effect of spraying water into the inlet air of the DAC unit.
--	DAC_Data_5_ConstOP contains data on the process performance at constant operating parameters and different ambient conditions
--	DAC_Data_5 contains data on the process performance at optimized operating parameters and different ambient conditions
--	In Input_DAC you can specify economic data and emission factors for the optimization:
-  *	Demand is in t of CO2
+**AirInletCooling** contains data on the cooling effect of spraying water into the inlet air of the DAC unit.
+**DAC_Data_5_ConstOP** contains data on the process performance at constant operating parameters and different ambient conditions
+**DAC_Data_5** contains data on the process performance at optimized operating parameters and different ambient conditions
+**In Input_DAC** you can specify economic data and emission factors for the optimization:
+  -	Demand is in t of CO2
   -	Module Investment cost is in EUR/module
   -	Lifetime is in years
   -	Maintenance Cost in % of annualized investment costs
   -	Carrier prices are in EUR/kWh
   -	Emission Factors are in t/kWh
   -	Eta_elth depicts the electric efficiency of the ohmic heating
--	Settings contains general data on the model assumptions:
+**Settings** contains general data on the model assumptions:
   -	  Constant demand
       1: demand needs to be met as specified in demand
       0: demand needs to be met over the full period
@@ -39,10 +39,10 @@ Main: Loads and sets data and performs optimization.
   - ConstantOP (1: keep operating parameters constant, 0: allow for optimized operating parameters in each time slice)
   - RHadapt (0: no inlet water spraying, 1: allow inlet water spraying)
   - RHdiscrete: how many discrete point to consider for inlet water spraying
--	Solver_Options: sdpsetting from YALMIP adapted to the model
+**Solver_Options**: sdpsetting from YALMIP adapted to the model
 
 ## Functions
--	DAC_Standalone_6: main function to perform the optimization
--	DACOutput_4: performs the fitting of the performance parameters based on the given RH and T vector (for variable operating parameters)
--	DACOutput_4_ConsPar: performs the fitting of the performance parameters based on the given RH and T vector (for constant operating parameters)
--	PLR: Performs a piece-wise linear regression
+**DAC_Standalone_6**: main function to perform the optimization
+**DACOutput_4**: performs the fitting of the performance parameters based on the given RH and T vector (for variable operating parameters)
+**DACOutput_4_ConsPar**: performs the fitting of the performance parameters based on the given RH and T vector (for constant operating parameters)
+**PLR**: Performs a piece-wise linear regression
