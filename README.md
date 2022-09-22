@@ -11,13 +11,13 @@ Nice to have:
 # Package content
 Main: Loads and sets data and performs optimization.
 
-Data:
+## Data:
 
 -	AirInletCooling contains data on the cooling effect of spraying water into the inlet air of the DAC unit.
 -	DAC_Data_5_ConstOP contains data on the process performance at constant operating parameters and different ambient conditions
 -	DAC_Data_5 contains data on the process performance at optimized operating parameters and different ambient conditions
 -	In Input_DAC you can specify economic data and emission factors for the optimization:
-  -	Demand is in t of CO2
+  *	Demand is in t of CO2
   -	Module Investment cost is in EUR/module
   -	Lifetime is in years
   -	Maintenance Cost in % of annualized investment costs
@@ -41,7 +41,7 @@ Data:
   - RHdiscrete: how many discrete point to consider for inlet water spraying
 -	Solver_Options: sdpsetting from YALMIP adapted to the model
 
-Functions
+## Functions
 -	DAC_Standalone_6: main function to perform the optimization
 -	DACOutput_4: performs the fitting of the performance parameters based on the given RH and T vector (for variable operating parameters)
 -	DACOutput_4_ConsPar: performs the fitting of the performance parameters based on the given RH and T vector (for constant operating parameters)
