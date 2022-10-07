@@ -5,6 +5,7 @@ Jan F. Wiegner, Alexa Grimm, Lukas Weimann, and Matteo Gazzani (2022): Optimal D
 Obligatory:
 -	YALMIP
 - any MILP solver compatible with YALMIP (can be from the Matlab optimization toolbox)
+- Matlab Statistics and Machine Learning Toolbox
 
 Nice to have:
 -	Gurobi or CLEX as external solvers
