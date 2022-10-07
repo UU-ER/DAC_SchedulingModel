@@ -4,7 +4,7 @@ Jan F. Wiegner, Alexa Grimm, Lukas Weimann, and Matteo Gazzani (2022): Optimal D
 # Dependencies
 Obligatory:
 -	YALMIP
-- any MILP solver (can be from the Matlab toolbox)
+- any MILP solver compatible with YALMIP (can be from the Matlab optimization toolbox)
 
 Nice to have:
 -	Gurobi or CLEX as external solvers
