@@ -92,6 +92,8 @@ function [ModelResults, solveroutput] = DAC_Standalone_6(Solver_Options, Setting
     % unit adjustments
     Input_DAC.E_tot   = Input_DAC.CO2_Out .* Input_DAC.E_tot /3.6; % in kwh/h
     Input_DAC.E_el    = Input_DAC.CO2_Out .* Input_DAC.E_el /3.6; % in kwh/h
+    Input_DAC.E_th    = Input_DAC.CO2_Out .* Input_DAC.E_th /3.6; % in kwh/h
+
     Input_DAC.Water_Out = Input_DAC.Water_Out .* Input_DAC.CO2_Out/1000; % in t/h
     Input_DAC.CO2_Out = Input_DAC.CO2_Out/1000; % in t/h
     if ConstantOP
