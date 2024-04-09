@@ -1,0 +1,8 @@
+Standalone_Results_Figure5.txt
+Contains data for Figure 5 of the paper S3 of the SI
+RH: relative humidity in percent
+T: temperature in degree C
+C_norm: normalized capturing costs
+E_tot: total specific energy requirements (in kWh/t_CO2)
+E_el: electric specific energy requirements (in kWh/t_CO2)
+E_th: thermal specific energy requirements (in kWh/t_CO2)
