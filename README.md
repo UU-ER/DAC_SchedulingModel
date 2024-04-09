@@ -54,10 +54,12 @@ Main: Loads and sets data and performs optimization.
 
 **DACOutput_4**: performs the fitting of the performance parameters based on the given RH and T vector (for variable operating parameters)
 
-## Results
-Contains a file with the optimization results for the DAC Standalone case for different temperature-humidity combinations.
-
 **DACOutput_4_ConsPar**: performs the fitting of the performance parameters based on the given RH and T vector (for constant operating parameters)
 
-**PLR**: Performs a piece-wise linear regression
+**PLR**: Performs a piece-wise linear regressio
+
+
+## Results
+Contains a file with the optimization results for the DAC Standalone case for different temperature-humidity combinations.
+n
 
